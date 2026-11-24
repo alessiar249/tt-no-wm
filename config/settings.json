@@ -1,0 +1,23 @@
+{
+  "module": "tt-no-wm",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "fetcher": {
+      "enabled": true
+    },
+    "cleaner": {
+      "enabled": true
+    },
+    "queue": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
